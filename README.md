@@ -1,10 +1,30 @@
 # Run Application
 
 ```
+export JAVA_HOME=`/usr/libexec/java_home -v 11`
+
+java --version
+
 docker-compose up -d
 
 docker-compose ps
 ```
+
+```
+./mvnw spring-boot:run
+```
+
+or
+
+```
+./mvnw clean package
+
+java -jar $(\ls target/*jar)
+```
+
+## mongo-express
+
+Access [localhost:9080](http://localhost:9080/), you can check and manipulate mongo by GUI.
 
 ## Mongo playground
 
