@@ -1,0 +1,4 @@
+[
+  {"_id":{"$oid":"6024e6a39c82f64f379738ca"},"firstName":"Mike","lastName":"Popcorn","_class":"com.kiyotakeshi.spring.mongo.Customer"},
+  {"_id":{"$oid":"6024e6a39c82f64f379738cb"},"firstName":"Sam","lastName":"Smith","_class":"com.kiyotakeshi.spring.mongo.Customer"}
+]

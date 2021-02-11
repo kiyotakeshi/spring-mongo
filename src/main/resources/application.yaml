@@ -1,0 +1,23 @@
+server:
+  port: 7080
+#  servlet:
+#    context-path: /api
+spring:
+  data:
+    mongodb:
+      # port: 27017 # if you set not default port
+
+      host: localhost
+      database: spring-mongo
+      username: demo # if you set "ME_CONFIG_MONGODB_ADMINUSERNAME", change that username
+      password: 1qazxsw2
+      # if you set "MONGO_INITDB_ROOT_*", in docker-compose
+      # authentication-database: admin
+
+      # set as one parameter
+      # @see https://spring.pleiades.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-connecting-to-mongodb
+      # uri: mongodb://localhost/spring-mongo
+      # uri: mongodb://root:1qazxsw2@localhost/spring-mongo?authSource=admin
+
+#logging.level.org.springframework.data.mongodb.core.MongoTemplate: debug
+#logging.level.org.mongodb.driver: debug
