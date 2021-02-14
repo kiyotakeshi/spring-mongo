@@ -3,7 +3,7 @@ version: '3.1'
 services:
   mongo:
     container_name: spring-mongo
-    image: mongo:4.1
+    image: mongo:4.2
     restart: always
     environment:
       # if you set root user, admin database will be created
