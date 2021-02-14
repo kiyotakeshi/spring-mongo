@@ -9,7 +9,7 @@ spring:
 
       host: localhost
       database: spring-mongo
-      username: demo # if you set "ME_CONFIG_MONGODB_ADMINUSERNAME", change that username
+      username: demo # if you set "MONGO_INITDB_ROOT_USERNAME", change that username
       password: 1qazxsw2
       # if you set "MONGO_INITDB_ROOT_*", in docker-compose
       # authentication-database: admin
